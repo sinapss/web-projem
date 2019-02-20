@@ -1,0 +1,26 @@
+.deneme
+{
+	height: 300px;
+	width: 500px;
+	background-color: #225566;
+}
+
+#abc
+{
+	width: 250px;
+	background-color: green;
+	color: white;
+	border: 1px;
+	padding: 10px;
+	margin-left: 50px;
+}
+
+button
+{
+	text-align: center;
+	background-color: orange;
+	color: white;
+	height: 40px;
+	width: 80px;
+	border-radius: 5px;
+}
