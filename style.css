@@ -1,4 +1,4 @@
-
+/* Website template by freewebsitetemplates.com */
 @font-face {
 	font-family: 'Muli';
 	src: url('../fonts/Muli-Regular.eot');
@@ -38,12 +38,16 @@ img {
 /*------------------------------ Sprites ------------------------------*/
 #header span.shadow, #footer span.shadow, #sidebar li.selected > a, #sidebar li > a:hover {
 	background: url(../images/shadows.png) repeat-x;
-
+}
+.play1, .play2, .play3, .btn, .previous, .next, #performances #sidebar span.more {
+	background: url(../images/buttons.png) no-repeat;
+}
 .frame1, .frame2, .frame3 {
 	background: url(../images/frames.png) no-repeat;
 }
-
-
+.video1, .video2, .video3 {
+	background: url(../images/frame-videos.png) no-repeat;
+}
 #sidebar, #sidebar .section, #sidebar .section > div, #contactbox, #contactbox > div, #contactbox > div > div {
 	background-image: url(../images/bg-sidebar.png);
 	background-repeat: no-repeat;
@@ -58,8 +62,39 @@ img {
 #connect > a {
 	background: url(../images/icons.png) no-repeat;
 }
-
-
+.play1, .play2, .play3 {
+	color: #fff;
+	display: inline-block;
+	font-family: "Muli";
+	text-decoration: none;
+	position: absolute;
+}
+.play1 {
+	background-position: -33px -260px;
+	font-size: 11px;
+	padding-top: 36px;
+	left: 105px;
+	top: 51px;
+}
+.play2 {
+	background-position: 8px -270px;
+	font-size: 9px;
+	padding-top: 16px;
+	left: 45px;
+	top: 24px;
+}
+.play3 {
+	background-position: -90px -246px;
+	font-size: 18px;
+	padding-top: 70px;
+	left: 255px;
+	top: 108px;
+	text-transform: uppercase;
+}
+.play1:hover, .play2:hover, .play3:hover {
+	filter:alpha(opacity=80);
+	opacity: 0.8;
+}
 .frame1 {
 	float: right;
 	background-position: 0 bottom;
@@ -85,7 +120,33 @@ img {
 	padding: 8px 19px 15px 9px;
 	overflow: hidden;
 }
-
+.video1 {
+	background-position: 0 -93px;
+	height: 154px;
+	width: 280px;
+	padding: 0 14px 16px 0;
+	overflow: hidden;
+	position: relative;
+}
+.video2 {
+	float: left;
+	background-position: 0 0;
+	height: 70px;
+	width: 127px;
+	margin-right: 10px;
+	padding: 0 4px 5px 1px;
+	overflow: hidden;
+	position: relative;
+}
+.video3 {
+	background-position: 0 -285px;
+	height: 328px;
+	width: 600px;
+	margin: 0 0 24px;
+	padding: 0 14px 16px 2px;
+	overflow: hidden;
+	position: relative;
+}
 #contactbox {
 	background-position: -323px bottom;
 	margin: 0 0 30px;
@@ -130,6 +191,11 @@ img {
 	float: left;
 	display: inline-block;
 	margin-top: 20px;
+}
+/** Link içindeki logo **/
+#ikon{
+	width: 80px;
+	height: 80px;
 }
 /** Navigation **/
 #navigation {
@@ -332,7 +398,7 @@ img {
 }
 #schedules #sidebar .section > div {
 	padding-top: 42px;
- *padding-bottom: 1px;
+ *padding-bottom: 1px; /** Needed for IE7 **/
 }
 #schedules #sidebar ul {
 	padding-bottom: 30px;
@@ -725,11 +791,11 @@ img {
 	width: 36px;
 	border-left: 0;
 	padding: 0;
- *margin-left: -1px;
+ *margin-left: -1px; /** Needed for Ie7 **/
 }
-
+/**--- the block of code under this comment is used on the blog page only. ---**/
 #footer div#links {
-	background: #303030;
+	background: #303030 url(../images/divider.png) repeat-x left bottom;
 	height: 331px;
 	width: 100%;
 	margin: 0;
