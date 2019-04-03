@@ -469,6 +469,7 @@ img {
 }
 #contact input.btn {
 	background-position: 0 -109px;
+	background-color: #212121;
 	color: #fff;
 	cursor: pointer;
 	font-family: "Muli";
@@ -676,13 +677,4 @@ img {
 	height: 24px;
 	line-height: 24px;
 	width: 193px;
-}
-#searchbar input.btn {
-	background-position: left bottom;
-	cursor: pointer;
-	height: 30px;
-	width: 26px;
-	border: 0;
-	margin: 0 0 0 6px;
-	padding: 0;
 }
