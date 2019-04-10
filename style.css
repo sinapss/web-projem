@@ -3,6 +3,7 @@ body {
 	background-color: #f6f6f6;
 	font-family: 'Muli-Light';
 	margin: 0;
+	background-image: url("iconfinder.png");
 }
 #page {
 	width: 960px;
@@ -29,14 +30,6 @@ img {
 	width: 547px;
 	margin: 0 0 12px;
 	padding: 17px 40px 30px 18px;
-	overflow: hidden;
-}
-.frame3 {
-	background-position: 0 0;
-	height: 199px;
-	width: 286px;
-	margin: 0 0 12px;
-	padding: 8px 19px 15px 9px;
 	overflow: hidden;
 }
 
@@ -102,6 +95,7 @@ img {
 }
 /*------------------------------ CONTENTS ------------------------------*/
 #contents > div {
+	background-image: url("iconfinder.png");
 	display: inline-block;
 	width: 100%;
 	padding-top: 42px;
@@ -336,99 +330,7 @@ img {
 	text-align: center;
 	text-decoration: none;
 }
-/** Performance **/
-#contents #performances {
-	padding-top: 0;
-}
-#contents #performances .videos p a {
-	color: #000;
-	text-decoration: none;
-}
-#contents #performances .videos p a:hover {
-	text-decoration: underline;
-}
-#performances #main {
-	margin-right: 10px;
-	padding-top: 42px;
-}
-#performances a.previous, #performances a.next {
-	float: left;
-	background-position: 0 -24px;
-	color: #9c9c9c;
-	display: inline-block;
-	font-size: 13px;
-	line-height: 24px;
-	margin: 0 0 24px;
-	padding: 0 15px;
-}
-#performances a.next {
-	float: right;
-	background-position: right 6px;
-}
-#performances a.previous:hover, #performances a.next:hover {
-	color: #000;
-}
-#performances ul.videos {
-	display: inline-block;
-	list-style: none;
-	width: 608px;
-	margin: 0;
-	padding: 0;
-}
-#performances ul.videos li {
-	float: left;
-	width: 304px;
-	margin-bottom: 18px;
-	position: relative;
-}
-#performances ul.videos li p, #performances #sidebar ul li p {
-	color: #000;
-	font-family: "Muli";
-	padding-bottom: 0;
-	text-transform: uppercase;
-}
-#performances ul.videos li p span, #performances #sidebar ul li p span {
-	color: #606060;
-	display: block;
-	padding-right: 20px;
-}
-#performances #sidebar {
-	min-height: 1050px;
-	width: 309px;
-	padding-right: 7px;
-	padding-top: 42px;
-	position: absolute;
-	z-index: 0;
-}
-#performances a.all {
-	float: right;
-	color: #000;
-	font-size: 13px;
-	line-height: 24px;
-	margin-right: 20px;
-}
-#performances #sidebar li a {
-	display: block;
-	height: 80px;
-	padding: 10px 40px 0 20px;
-}
-#performances #sidebar ul li.selected a, #performances #sidebar ul li a:hover {
-	background-position: 0 -89px;
-}
-#performances #sidebar span.more {
-	background-position: 0 -155px;
-	color: #fff;
-	cursor: pointer;
-	display: block;
-	font-family: "Muli";
-	font-size: 13px;
-	height: 31px;
-	line-height: 31px;
-	width: 138px;
-	margin-left: 16px;
-	text-align: center;
-	text-decoration: none;
-}
+
 
 /** Contact **/
 #contact {
@@ -581,73 +483,10 @@ img {
 	float: left;
 	width: 100px;
 }
-#newsletter {
-	display: inline-block;
-	width: 200px;
-}
-#newsletter input {
-	float: left;
-	border: 1px solid #b3b3b3;
-}
-#newsletter input.txtfield {
-	color: #606060;
-	font-family: Arial, Helvetica, sans-serif;
-	height: 25px;
-	line-height: 25px;
-	width: 158px;
-	border-right: 0;
-	padding: 0 0 0 5px;
-}
-#newsletter input.btn {
-	background-position: -2px -64px;
-	cursor: pointer;
-	height: 27px;
-	width: 36px;
-	border-left: 0;
-	padding: 0;
- *margin-left: -1px; /** Needed for Ie7 **/
-}
+
 /**--- the block of code under this comment is used on the blog page only. ---**/
-#footer div#links {
-	background: #303030 url(../images/divider.png) repeat-x left bottom;
-	height: 331px;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-}
-#links > div {
-	width: 940px;
-	margin: 0 auto;
-	padding: 0 10px;
-}
-#links > div:after {
-	clear:both;
-	content:"";
-	display:block;
-	height:0;
-	line-height:0;
-	visibility:hidden;
-}
-#links h3 {
-	color: #8c8c8c;
-	font-family: 'NixieOne';
-	font-size: 18px;
-	font-weight: normal;
-	line-height: 24px;
-	margin: 0 0 12px;
-}
-#links > div > div {
-	float: left;
-	min-height: 282px;
-	width: 272px;
-	border-left: 1px solid #585858;
-	margin-right: 20px;
-	padding: 24px 0 24px 19px;
-}
-#links > div > div:first-child {
-	border: 0;
-	padding-left: 20px;
-}
+
+
 #footer div#links li {
 	margin: 0 0 18px;
 }
@@ -662,19 +501,4 @@ img {
 }
 #footer div#links a:hover {
 	color: #fff;
-}
-#searchbar {
-	display: inline-block;
-}
-#searchbar h3 {
-	color: #606060;
-}
-#searchbar input {
-	float: left;
-	color: #606060;
-	font-family: "Muli-Light";
-	font-size: 13px;
-	height: 24px;
-	line-height: 24px;
-	width: 193px;
 }
