@@ -3,7 +3,8 @@ body {
 	background-color: #f6f6f6;
 	font-family: 'Muli-Light';
 	margin: 0;
-	background-image: url("iconfinder.png");
+
+
 }
 #page {
 	width: 960px;
@@ -23,6 +24,8 @@ img {
 	margin: 0 4px 30px 36px;
 	padding: 18px 18px 32px 33px;
 	overflow: hidden;
+	background-image: url("resimler/giphy.gif");
+	background-repeat: no-repeat;
 }
 .frame2 {
 	background-position: 0 -259px;
@@ -95,7 +98,6 @@ img {
 }
 /*------------------------------ CONTENTS ------------------------------*/
 #contents > div {
-	background-image: url("iconfinder.png");
 	display: inline-block;
 	width: 100%;
 	padding-top: 42px;
@@ -228,6 +230,7 @@ img {
 	background-repeat: repeat-y;
 	color: #606060;
 	width: 316px;
+
 }
 #sidebar .section {
 	background-position: -323px bottom;
