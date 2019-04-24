@@ -45,7 +45,9 @@ img {
 	position: absolute;
 	left: 0;
 	top: 0;
+
 }
+
 #header > div {
 	height: 96px;
 	width: 940px;
@@ -68,7 +70,7 @@ img {
 	margin-top: 20px;
 }
 
-/**ikon boyutu **/
+/**İkon  **/
 #ikon{
 	width: 90px;
 	height: 80px;
@@ -93,9 +95,16 @@ img {
 	padding: 0;
 	text-decoration: none;
 }
-#navigation li a:hover, #navigation li.selected a {
-	color: #fff;
+#navigation li a:hover{
+	color: white;
+	background-color: #43A047;
 }
+
+#navigation li a:active{
+	color: #FFFF00;
+	background-color: #311B92;
+}
+
 /*------------------------------ CONTENTS ------------------------------*/
 #contents > div {
 	display: inline-block;
@@ -186,34 +195,11 @@ img {
 	margin-bottom: 6px;
 	margin-right: 10px;
 }
-/** About **/
-#about .frame1 {
-	float: none;
-	margin: 0 auto;
-}
-#about h2 {
-	text-align: center;
-}
-#about h4 {
-	font-family: "NixieOne";
-	font-size: 14px;
-	font-weight: normal;
-	line-height:24px;
-	text-transform: uppercase;
-}
+
 #about ul {
-	display: inline-block;
 	list-style: none;
 	margin: 0 0 30px;
 	padding: 0;
-}
-#about ul li {
-	float: left;
-	width: 220px;
-	margin: 0 10px;
-}
-#about ul li p {
-	padding: 0 20px 0 0;
 }
 /* Main */
 #main {
@@ -335,35 +321,30 @@ img {
 }
 
 
-/** Contact **/
-#contact {
+/** İletişim **/
+#iletisim {
 	min-height: 1000px;
 }
-#contact > div {
+#iletisim > div {
 	background-position: right 0;
 	height: 500px;
 	width: 450px;
 	padding: 0 38px 0 10px;
 }
-#contact form {
+#iletisim form {
 	float: right;
 	width: 440px;
 	padding: 0 0 0 20px;
 }
-#contact label {
-	color: #606060;
-	display: block;
-	font-size: 13px;
-	line-height: 24px;
-}
-#contact input.txtfield {
+#iletisim input.txtfield {
 	height: 25px;
 	width: 430px;
 	border: 1px solid #b3b3b3;
 	margin: 0 0 18px;
 	padding: 0 4px;
 }
-#contact textarea {
+
+#iletisim textarea {
 	height: 136px;
 	width: 435px;
 	border: 1px solid #b3b3b3;
@@ -372,45 +353,28 @@ img {
 	overflow: auto;
 	resize: none;
 }
-#contact input.btn {
-	background-position: 0 -109px;
+#iletisim input.btn {
 	background-color: #212121;
 	color: #fff;
-	cursor: pointer;
-	font-family: "Muli";
 	font-size: 13px;
 	height: 36px;
-	line-height: 31px;
 	width: 80px;
-	border: 0;
-	margin: 0;
-	padding: 0 0 8px;
 }
-#contact ul {
-	color: #606060;
-	list-style: none;
-	margin: 0;
-	padding: 0
+
+#iletisim input.btn:hover {
+	background-color: #388E3C;
+	color:white;
 }
-#contact ul li {
-	display: inline-block;
-	width: 100%;
-	padding: 0;
-}
-#contact li p {
+
+#iletisim li p {
 	padding: 0 0 0 90px;
 }
-#contact ul li span {
+#iletisim ul li span {
 	float: left;
 	display: inline-block;
 	font-size: 13px;
 	line-height: 24px;
 	width: 90px;
-}
-/** Hover States **/
-#schedules a.btn:hover, #performances #sidebar span.more:hover, #contact input.btn:hover {
-	filter:alpha(opacity=90);
-	opacity: 0.9;
 }
 /*------------------------------ FOOTER ------------------------------*/
 #footer {
@@ -478,30 +442,4 @@ img {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-}
-#footer li {
-	margin: 0 0 6px;
-}
-#footer .navigation li, #footer .connect li {
-	float: left;
-	width: 100px;
-}
-
-/**--- the block of code under this comment is used on the blog page only. ---**/
-
-
-#footer div#links li {
-	margin: 0 0 18px;
-}
-#footer div#links div.archives li {
-	float: left;
-	width: 136px;
-}
-#footer div#links a {
-	color: #8c8c8c;
-	font-family: "Muli-Light";
-	font-size: 13px;
-}
-#footer div#links a:hover {
-	color: #fff;
 }
